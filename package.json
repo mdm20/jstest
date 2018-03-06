@@ -1,0 +1,19 @@
+{
+  "name": "jstest",
+  "description": "javascript test project",
+  "version": "0.0.1",
+  "dependencies": {
+    "Q": "^1.0.0",
+    "path": "^0.12.7",
+    "typescript": "^2.7.2"
+  },
+  "devDependencies": {
+    "ts-loader": "^4.0.1",
+    "webpack": "^4.1.0",
+    "webpack-cli": "^2.0.10"
+  },
+  "scripts": {
+    "build": "webpack --mode=production",
+    "builddev": "webpack --mode=development"
+  }
+}
