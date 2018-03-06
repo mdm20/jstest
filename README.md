@@ -41,12 +41,13 @@ This is the code required to populate a select
     dd.populate("ALERTS_STATUS_TYPES", null, $("#selOffering"), false, params[1]);
 ```
 
-##### The parameters for LoyaltyExpress.Dropdown.populate are:
-    1.  The identifier to which the stored proecedure is linked.
-    2.  Any arguement that the SP requires, in the form or a normal query string.  ie:  name=jim&id=21
-    3.  A JQuery selector.  ie: $("#selOffering")
-    4.  A flag to use the meta database instead of the default.  If targetting meta, set this to true
-    5.  The default option to be selected, if applicable
+The parameters for LoyaltyExpress.Dropdown.populate are:
+
+1.  The identifier to which the stored proecedure is linked.
+2.  Any arguement that the SP requires, in the form or a normal query string.  ie:  name=jim&id=21
+3.  A JQuery selector.  ie: $("#selOffering")
+4.  A flag to use the meta database instead of the default.  If targetting meta, set this to true
+5.  The default option to be selected, if applicable
 
 
 
