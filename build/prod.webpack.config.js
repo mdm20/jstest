@@ -12,14 +12,13 @@ module.exports = merge(baseConfig, {
             loader: 'string-replace-loader',
             options: {
             search: 'XXXXXXXX',
-            replace: 'http://localhost/PortalNew',
+            replace: '',
             }
         },
       ]
     },
     output: {
         filename: 'loyaltyexpress.js',
-       // path: path.resolve(__dirname, 'dist')
-        path: path.join('C:', '/Code/CustomerManager/new3/includeJs')
+        path: path.resolve(__dirname, 'dist')
       }
   });

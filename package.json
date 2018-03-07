@@ -17,6 +17,6 @@
   },
   "scripts": {
     "build": "webpack --config ./build/prod.webpack.config.js --mode=production",
-    "builddev": "webpack  --config ./build/dev.webpack.config.js --mode=development"
+    "builddev": "webpack  --config ./build/dev.webpack.config.js --mode=development --watch"
   }
 }
